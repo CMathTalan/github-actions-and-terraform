@@ -9,12 +9,12 @@ variable "company" {
 variable "environment" {
   type = string
   description = "défini l'environnement à construire"
-  default = "francecentral"
+  default = "production"
 }
 
 #azure region
 variable "location" {
     type = string
     description = "region ou créer les ressources"
-    default = "france centrale"
+    default = "West Europe"
 }
